@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A1C00BC15E51CEF0092A4E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A1C00BB15E51CEE0092A4E3 /* UIKit.framework */; };
+		6A1C00BE15E51CEF0092A4E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A1C00BD15E51CEF0092A4E3 /* Foundation.framework */; };
+		6A1C00C015E51CEF0092A4E3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A1C00BF15E51CEF0092A4E3 /* CoreGraphics.framework */; };
+		6A1C00C615E51CEF0092A4E3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A1C00C415E51CEF0092A4E3 /* InfoPlist.strings */; };
+		6A1C00C815E51CEF0092A4E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1C00C715E51CEF0092A4E3 /* main.m */; };
+		6A1C00CC15E51CEF0092A4E3 /* PrincipalAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1C00CB15E51CEF0092A4E3 /* PrincipalAppDelegate.m */; };
+		6A1C00CF15E51CEF0092A4E3 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A1C00CD15E51CEF0092A4E3 /* MainStoryboard_iPhone.storyboard */; };
+		6A1C00D215E51CEF0092A4E3 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A1C00D015E51CEF0092A4E3 /* MainStoryboard_iPad.storyboard */; };
+		6A1C00D515E51CEF0092A4E3 /* PrincipalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1C00D415E51CEF0092A4E3 /* PrincipalViewController.m */; };
+		6A1C00DD15E51CEF0092A4E3 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A1C00DC15E51CEF0092A4E3 /* SenTestingKit.framework */; };
+		6A1C00DE15E51CEF0092A4E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A1C00BB15E51CEE0092A4E3 /* UIKit.framework */; };
+		6A1C00DF15E51CEF0092A4E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A1C00BD15E51CEF0092A4E3 /* Foundation.framework */; };
+		6A1C00E715E51CEF0092A4E3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A1C00E515E51CEF0092A4E3 /* InfoPlist.strings */; };
+		6A1C00EA15E51CEF0092A4E3 /* CadastroAlunoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1C00E915E51CEF0092A4E3 /* CadastroAlunoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A1C00E015E51CEF0092A4E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A1C00AE15E51CEE0092A4E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A1C00B615E51CEE0092A4E3;
+			remoteInfo = CadastroAluno;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A1C00B715E51CEE0092A4E3 /* CadastroAluno.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CadastroAluno.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A1C00BB15E51CEE0092A4E3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6A1C00BD15E51CEF0092A4E3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6A1C00BF15E51CEF0092A4E3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6A1C00C315E51CEF0092A4E3 /* CadastroAluno-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CadastroAluno-Info.plist"; sourceTree = "<group>"; };
+		6A1C00C515E51CEF0092A4E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6A1C00C715E51CEF0092A4E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6A1C00C915E51CEF0092A4E3 /* CadastroAluno-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CadastroAluno-Prefix.pch"; sourceTree = "<group>"; };
+		6A1C00CA15E51CEF0092A4E3 /* PrincipalAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrincipalAppDelegate.h; sourceTree = "<group>"; };
+		6A1C00CB15E51CEF0092A4E3 /* PrincipalAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrincipalAppDelegate.m; sourceTree = "<group>"; };
+		6A1C00CE15E51CEF0092A4E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		6A1C00D115E51CEF0092A4E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		6A1C00D315E51CEF0092A4E3 /* PrincipalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrincipalViewController.h; sourceTree = "<group>"; };
+		6A1C00D415E51CEF0092A4E3 /* PrincipalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrincipalViewController.m; sourceTree = "<group>"; };
+		6A1C00DB15E51CEF0092A4E3 /* CadastroAlunoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CadastroAlunoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A1C00DC15E51CEF0092A4E3 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		6A1C00E415E51CEF0092A4E3 /* CadastroAlunoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CadastroAlunoTests-Info.plist"; sourceTree = "<group>"; };
+		6A1C00E615E51CEF0092A4E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6A1C00E815E51CEF0092A4E3 /* CadastroAlunoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CadastroAlunoTests.h; sourceTree = "<group>"; };
+		6A1C00E915E51CEF0092A4E3 /* CadastroAlunoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CadastroAlunoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A1C00B415E51CEE0092A4E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A1C00BC15E51CEF0092A4E3 /* UIKit.framework in Frameworks */,
+				6A1C00BE15E51CEF0092A4E3 /* Foundation.framework in Frameworks */,
+				6A1C00C015E51CEF0092A4E3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A1C00D715E51CEF0092A4E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A1C00DD15E51CEF0092A4E3 /* SenTestingKit.framework in Frameworks */,
+				6A1C00DE15E51CEF0092A4E3 /* UIKit.framework in Frameworks */,
+				6A1C00DF15E51CEF0092A4E3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A1C00AC15E51CEE0092A4E3 = {
+			isa = PBXGroup;
+			children = (
+				6A1C00C115E51CEF0092A4E3 /* CadastroAluno */,
+				6A1C00E215E51CEF0092A4E3 /* CadastroAlunoTests */,
+				6A1C00BA15E51CEE0092A4E3 /* Frameworks */,
+				6A1C00B815E51CEE0092A4E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A1C00B815E51CEE0092A4E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A1C00B715E51CEE0092A4E3 /* CadastroAluno.app */,
+				6A1C00DB15E51CEF0092A4E3 /* CadastroAlunoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A1C00BA15E51CEE0092A4E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A1C00BB15E51CEE0092A4E3 /* UIKit.framework */,
+				6A1C00BD15E51CEF0092A4E3 /* Foundation.framework */,
+				6A1C00BF15E51CEF0092A4E3 /* CoreGraphics.framework */,
+				6A1C00DC15E51CEF0092A4E3 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A1C00C115E51CEF0092A4E3 /* CadastroAluno */ = {
+			isa = PBXGroup;
+			children = (
+				6A1C00CA15E51CEF0092A4E3 /* PrincipalAppDelegate.h */,
+				6A1C00CB15E51CEF0092A4E3 /* PrincipalAppDelegate.m */,
+				6A1C00CD15E51CEF0092A4E3 /* MainStoryboard_iPhone.storyboard */,
+				6A1C00D015E51CEF0092A4E3 /* MainStoryboard_iPad.storyboard */,
+				6A1C00D315E51CEF0092A4E3 /* PrincipalViewController.h */,
+				6A1C00D415E51CEF0092A4E3 /* PrincipalViewController.m */,
+				6A1C00C215E51CEF0092A4E3 /* Supporting Files */,
+			);
+			path = CadastroAluno;
+			sourceTree = "<group>";
+		};
+		6A1C00C215E51CEF0092A4E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A1C00C315E51CEF0092A4E3 /* CadastroAluno-Info.plist */,
+				6A1C00C415E51CEF0092A4E3 /* InfoPlist.strings */,
+				6A1C00C715E51CEF0092A4E3 /* main.m */,
+				6A1C00C915E51CEF0092A4E3 /* CadastroAluno-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6A1C00E215E51CEF0092A4E3 /* CadastroAlunoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6A1C00E815E51CEF0092A4E3 /* CadastroAlunoTests.h */,
+				6A1C00E915E51CEF0092A4E3 /* CadastroAlunoTests.m */,
+				6A1C00E315E51CEF0092A4E3 /* Supporting Files */,
+			);
+			path = CadastroAlunoTests;
+			sourceTree = "<group>";
+		};
+		6A1C00E315E51CEF0092A4E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A1C00E415E51CEF0092A4E3 /* CadastroAlunoTests-Info.plist */,
+				6A1C00E515E51CEF0092A4E3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A1C00B615E51CEE0092A4E3 /* CadastroAluno */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A1C00ED15E51CEF0092A4E3 /* Build configuration list for PBXNativeTarget "CadastroAluno" */;
+			buildPhases = (
+				6A1C00B315E51CEE0092A4E3 /* Sources */,
+				6A1C00B415E51CEE0092A4E3 /* Frameworks */,
+				6A1C00B515E51CEE0092A4E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CadastroAluno;
+			productName = CadastroAluno;
+			productReference = 6A1C00B715E51CEE0092A4E3 /* CadastroAluno.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A1C00DA15E51CEF0092A4E3 /* CadastroAlunoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A1C00F015E51CEF0092A4E3 /* Build configuration list for PBXNativeTarget "CadastroAlunoTests" */;
+			buildPhases = (
+				6A1C00D615E51CEF0092A4E3 /* Sources */,
+				6A1C00D715E51CEF0092A4E3 /* Frameworks */,
+				6A1C00D815E51CEF0092A4E3 /* Resources */,
+				6A1C00D915E51CEF0092A4E3 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A1C00E115E51CEF0092A4E3 /* PBXTargetDependency */,
+			);
+			name = CadastroAlunoTests;
+			productName = CadastroAlunoTests;
+			productReference = 6A1C00DB15E51CEF0092A4E3 /* CadastroAlunoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A1C00AE15E51CEE0092A4E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Principal;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Rafael Brigagão Paulino";
+			};
+			buildConfigurationList = 6A1C00B115E51CEE0092A4E3 /* Build configuration list for PBXProject "CadastroAluno" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6A1C00AC15E51CEE0092A4E3;
+			productRefGroup = 6A1C00B815E51CEE0092A4E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A1C00B615E51CEE0092A4E3 /* CadastroAluno */,
+				6A1C00DA15E51CEF0092A4E3 /* CadastroAlunoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A1C00B515E51CEE0092A4E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A1C00C615E51CEF0092A4E3 /* InfoPlist.strings in Resources */,
+				6A1C00CF15E51CEF0092A4E3 /* MainStoryboard_iPhone.storyboard in Resources */,
+				6A1C00D215E51CEF0092A4E3 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A1C00D815E51CEF0092A4E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A1C00E715E51CEF0092A4E3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6A1C00D915E51CEF0092A4E3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A1C00B315E51CEE0092A4E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A1C00C815E51CEF0092A4E3 /* main.m in Sources */,
+				6A1C00CC15E51CEF0092A4E3 /* PrincipalAppDelegate.m in Sources */,
+				6A1C00D515E51CEF0092A4E3 /* PrincipalViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A1C00D615E51CEF0092A4E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A1C00EA15E51CEF0092A4E3 /* CadastroAlunoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A1C00E115E51CEF0092A4E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A1C00B615E51CEE0092A4E3 /* CadastroAluno */;
+			targetProxy = 6A1C00E015E51CEF0092A4E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6A1C00C415E51CEF0092A4E3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A1C00C515E51CEF0092A4E3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6A1C00CD15E51CEF0092A4E3 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A1C00CE15E51CEF0092A4E3 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		6A1C00D015E51CEF0092A4E3 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A1C00D115E51CEF0092A4E3 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		6A1C00E515E51CEF0092A4E3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A1C00E615E51CEF0092A4E3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A1C00EB15E51CEF0092A4E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A1C00EC15E51CEF0092A4E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A1C00EE15E51CEF0092A4E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CadastroAluno/CadastroAluno-Prefix.pch";
+				INFOPLIST_FILE = "CadastroAluno/CadastroAluno-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6A1C00EF15E51CEF0092A4E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CadastroAluno/CadastroAluno-Prefix.pch";
+				INFOPLIST_FILE = "CadastroAluno/CadastroAluno-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6A1C00F115E51CEF0092A4E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CadastroAluno.app/CadastroAluno";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CadastroAluno/CadastroAluno-Prefix.pch";
+				INFOPLIST_FILE = "CadastroAlunoTests/CadastroAlunoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		6A1C00F215E51CEF0092A4E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CadastroAluno.app/CadastroAluno";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CadastroAluno/CadastroAluno-Prefix.pch";
+				INFOPLIST_FILE = "CadastroAlunoTests/CadastroAlunoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A1C00B115E51CEE0092A4E3 /* Build configuration list for PBXProject "CadastroAluno" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A1C00EB15E51CEF0092A4E3 /* Debug */,
+				6A1C00EC15E51CEF0092A4E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A1C00ED15E51CEF0092A4E3 /* Build configuration list for PBXNativeTarget "CadastroAluno" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A1C00EE15E51CEF0092A4E3 /* Debug */,
+				6A1C00EF15E51CEF0092A4E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6A1C00F015E51CEF0092A4E3 /* Build configuration list for PBXNativeTarget "CadastroAlunoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A1C00F115E51CEF0092A4E3 /* Debug */,
+				6A1C00F215E51CEF0092A4E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A1C00AE15E51CEE0092A4E3 /* Project object */;
+}
